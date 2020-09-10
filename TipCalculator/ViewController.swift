@@ -10,13 +10,22 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var tipAmount: UILabel!
+    @IBOutlet weak var tipPercentage: UILabel!
+    @IBOutlet weak var billAmount: UITextField!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        view.endEditing(true)
-        print("Hello, World")
+      
+        
     }
 
-
+    @IBAction func onTap(_ sender: Any) {
+        print("Hello, World")
+              view.endEditing(true)
+    }
+    @IBAction func tipControlBar(_ sender: Any) {
+    }
+    
 }
 
