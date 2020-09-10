@@ -10,6 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var totalAmount: UILabel!
     @IBOutlet weak var tipAmount: UILabel!
     @IBOutlet weak var tipPercentage: UILabel!
     @IBOutlet weak var billAmount: UITextField!
@@ -27,5 +28,11 @@ class ViewController: UIViewController {
     @IBAction func tipControlBar(_ sender: Any) {
     }
     
+    @IBAction func calculateTip(_ sender: Any) {
+        //Get bill amount
+        // Calculate the tip and total
+        // Update the tip and total labels
+        
+    }
 }
 

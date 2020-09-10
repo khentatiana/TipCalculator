@@ -27,6 +27,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="calculateTip:" destination="BYZ-38-t0r" eventType="editingChanged" id="xx8-WY-Nmo"/>
+                                </connections>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Tip Percentage" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rkb-rb-zfi">
                                 <rect key="frame" x="48" y="249" width="125" height="54"/>
@@ -84,6 +87,7 @@
                         <outlet property="billAmount" destination="4uI-GT-swF" id="ZIB-Zi-fBB"/>
                         <outlet property="tipAmount" destination="ZMm-Ka-KHq" id="ZqS-GF-Jsv"/>
                         <outlet property="tipPercentage" destination="B8z-gj-a41" id="M3V-Lm-Niz"/>
+                        <outlet property="totalAmount" destination="ZMm-Ka-KHq" id="xw2-ES-d8J"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -93,7 +97,7 @@
                     </connections>
                 </tapGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="3620" y="-72"/>
+            <point key="canvasLocation" x="3326" y="33"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Y7Z-qb-AhF">
