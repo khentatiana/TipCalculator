@@ -16,12 +16,12 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-      
-        
+              
     }
 
     @IBAction func onTap(_ sender: Any) {
         print("Hello, World")
+        //dismiss key
               view.endEditing(true)
     }
     @IBAction func tipControlBar(_ sender: Any) {
